@@ -13,7 +13,7 @@ public class Debugger : MonoBehaviour
         {
             yield return new WaitForSeconds(1);
             Debug.Log($"Exp: {level.GetExperience()}, Level: {level.GetLevel()}, " +
-                            $"Health: {health.GetHealth()}");
+                            $"Health: {health.GetCurrentHealth()}");
         }
     }
 }
